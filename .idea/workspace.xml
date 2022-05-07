@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a87810d8-79e0-4a0a-ac05-23eb49bc64fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/swiper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/brand.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/hero.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/price.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/repair.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/comic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/webpack.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="a87810d8-79e0-4a0a-ac05-23eb49bc64fd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +65,7 @@
       <workItem from="1651813015613" duration="8000" />
       <workItem from="1651854861312" duration="15691000" />
       <workItem from="1651945062406" duration="2869000" />
-      <workItem from="1651948351543" duration="12641000" />
+      <workItem from="1651948351543" duration="12974000" />
     </task>
     <servers />
   </component>
