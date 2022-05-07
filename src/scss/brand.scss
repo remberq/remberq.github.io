@@ -1,0 +1,58 @@
+@import "variables";
+
+.brand {
+  @extend %section-footer;
+
+  .brand__title {
+    @extend %section-header;
+  }
+
+  .swiper-slide {
+    margin-top: 16px;
+    padding-left: 16px;
+  }
+}
+
+.brand__item {
+  width: 240px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: $secondary-color;
+  border-radius: 6px;
+
+  .brand-logo {
+    padding-left: 16px;
+  }
+}
+
+.link-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+
+  .link-btn__circle {
+    position: absolute;
+  }
+
+  .link-btn__arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: left .3s;
+  }
+
+  &:hover {
+    cursor: pointer;
+    .link-btn__arrow {
+      left: 60%;
+
+    }
+  }
+}
+
+

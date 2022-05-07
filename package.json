@@ -1,7 +1,7 @@
 {
   "name": "webpack-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "- Babel\r - SCSS\r - Font loading\r - Autoprefixer\r - Sourcemaps",
   "main": "index.js",
   "keywords": [],
   "author": "",
@@ -47,5 +47,16 @@
   "engines": {
     "npm": "~6.14.15",
     "node": "~14.18.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jm-program/webpack-static-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jm-program/webpack-static-template/issues"
+  },
+  "homepage": "https://github.com/jm-program/webpack-static-template#readme",
+  "dependencies": {
+    "swiper": "^8.1.4"
   }
 }

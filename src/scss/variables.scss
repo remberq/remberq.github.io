@@ -1,0 +1,26 @@
+$main-color:              #F8F8F8;
+$secondary-color:         #FFFFFF;
+$action-color:            #FF3E79;
+
+$decorate-color:          #41F6D7;
+$decorate-color-light:    #B8FFEC;
+$decorate-color-lighten:  #D9FFF5;
+
+$main-text-color:         #1B1C21;
+
+$gray:                    #7E7E82;
+$gray-light:              #B5B6BC;
+$gray-lighten:            #DDDDDD;
+$gray-white:              #EAEAEA;
+
+
+%section-header {
+  padding: 16px;
+  height: 100%;
+  background-color: $secondary-color;
+}
+
+%section-footer {
+  padding-bottom: 24px;
+  border-bottom: 1px solid $decorate-color-lighten;
+}
