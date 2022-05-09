@@ -149,7 +149,7 @@ ul {
   .aside__btn {
     display: none; }
   .aside {
-    transform: translatey(100%); } }
+    transform: translatey(120%); } }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -1054,7 +1054,7 @@ template {
   min-width: 320px;
   height: 100vh;
   position: fixed;
-  top: -100%;
+  top: -120%;
   overflow-y: auto; }
 
 .aside__header {
