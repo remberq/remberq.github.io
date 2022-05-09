@@ -3,6 +3,10 @@
 .repair {
   @extend %section-footer;
 
+  .show-link {
+    display: none;
+  }
+
   .repair__title {
     @extend %section-header;
   }
@@ -13,6 +17,10 @@
   .swiper-slide {
     padding-left: 16px;
   }
+}
+
+.repair__items {
+  display: none;
 }
 
 .repair__item {
@@ -40,4 +48,79 @@
   }
 }
 
+@media (min-width: 560px) {
+  .swiper--repair {
+    display: none;
+  }
+  .repair {
+    .show-link {
+      display: block;
+      margin-top: 24px;
+      margin-left: 16px;
+    }
+  }
 
+
+  .repair__items {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    height: 170px;
+    margin-top: 24px;
+    padding-left: 16px;
+
+    overflow-y: hidden;
+
+    .repair__item {
+      width: 224px;
+      margin-right: 16px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .repair {
+    .repair__title {
+      padding-left: 24px;
+    }
+
+    .show-link {
+      margin-left: 24px;
+      margin-bottom: 32px;
+    }
+  }
+  .repair__items {
+    padding-left: 24px;
+
+
+    .repair__item {
+      width: 224px;
+      margin-right: 24px;
+    }
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .repair {
+    padding-bottom: 0;
+    .repair__title {
+      padding-left: 32px;
+    }
+
+    .show-link {
+      margin-left: 24px;
+      margin-bottom: 50px;
+    }
+  }
+  .repair__items {
+    padding-left: 32px;
+
+
+    .repair__item {
+      width: 240px;
+      margin-right: 32px;
+    }
+  }
+}

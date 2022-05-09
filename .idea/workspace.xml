@@ -5,7 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a87810d8-79e0-4a0a-ac05-23eb49bc64fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/scss/aside.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/modals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/burgerburger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/call.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/fix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/go.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/iconcheck.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/brand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/brand.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/price.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/repair.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/repair.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/WebStorm/Kata/Iintoo&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/WebStorm/Kata/Iintoo",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,6 +92,16 @@
       <workItem from="1651945062406" duration="2869000" />
       <workItem from="1651948351543" duration="13124000" />
       <workItem from="1651986031090" duration="596000" />
+      <workItem from="1652013051485" duration="3899000" />
+      <workItem from="1652021126534" duration="10922000" />
+      <workItem from="1652036251375" duration="10773000" />
+      <workItem from="1652084736363" duration="473000" />
+      <workItem from="1652085917349" duration="864000" />
+      <workItem from="1652087005177" duration="1182000" />
+      <workItem from="1652089078465" duration="387000" />
+      <workItem from="1652102360052" duration="604000" />
+      <workItem from="1652106724322" duration="4128000" />
+      <workItem from="1652110920575" duration="17135000" />
     </task>
     <servers />
   </component>
@@ -85,5 +118,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,10 +1,4 @@
 
-new Swiper('.hero--swiper', {
-  loop: true,
-  slidesPerView: 1.2,
-  spaceBetween: 16,
-  speed: 600,
-})
 
 
 new Swiper('.brand--swiper', {
@@ -37,7 +31,25 @@ new Swiper('.price--swiper', {
     el: '.swiper-pagination',
     clickable: true,
   },
-  slidesPerView: 1.3,
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1.2
+    },
+    400: {
+      slidesPerView: 1.5
+    },
+    500: {
+      slidesPerView: 2
+    },
+    600: {
+      slidesPerView: 2.2
+    },
+    700: {
+      slidesPerView: 2.8
+    },
+  },
+
   spaceBetween: 16,
   speed: 600,
 })

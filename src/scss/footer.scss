@@ -21,3 +21,44 @@
   color: $gray;
   opacity: 0.73;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 32px 24px 25px;
+  }
+
+  .footer__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    .footer__item {
+      width: 100%;
+    }
+  }
+
+  .footer__item {
+    &:first-child {
+      .footer__item-text {
+        text-align: start;
+      }
+
+    }
+
+    &:nth-child(2) {
+      .footer__item-text {
+        text-align: start;
+      }
+
+    }
+
+    &:last-child {
+      .footer__item-text{
+        text-align: end;
+      }
+
+    }
+  }
+}
+
+

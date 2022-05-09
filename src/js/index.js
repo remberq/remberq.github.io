@@ -8,6 +8,8 @@ import '../scss/brand.scss';
 import '../scss/repair.scss';
 import '../scss/price.scss';
 import '../scss/footer.scss';
+import '../scss/aside.scss';
+import '../scss/modals.scss';
 
 
 import '../js/swiper';

@@ -2,6 +2,7 @@
 
 body {
   font-family: 'TTLakes', sans-serif;
+
 }
 
 * {
@@ -16,6 +17,13 @@ ul {
 
 .img {
   width: 100%;
+
+}
+
+.main-container {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .btn {
@@ -29,17 +37,29 @@ ul {
   &:hover {
     cursor: pointer;
   }
+
+  &__svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.callback-icons {
+  display: none;
 }
 
 .container {
-  width: 320px;
+  min-width: 320px;
+  overflow: hidden;
   margin: 0 auto;
   background-color: $main-color;
 }
 
 
 .subtitle {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
@@ -53,8 +73,87 @@ ul {
   margin-top: 10px;
 }
 
+//Burger button
+
+.burger {
+  position: relative;
+  width: 40px;
+  height: 40px;
+
+
+  background-color: $action-color;
+  border-radius: 50%;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 11px;
+    width: 18px;
+    height: 2px;
+
+    background-color: $secondary-color;
+    border-radius: 2px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 19px;
+    left: 11px;
+    width: 10px;
+    height: 2px;
+
+    background-color: $secondary-color;
+    border-radius: 2px;
+  }
+
+  span {
+    position: absolute;
+    top: 26px;
+    left: 11px;
+    width: 14px;
+    height: 2px;
+
+    background-color: $secondary-color;
+    border-radius: 2px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.link-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+
+  .link-btn__circle {
+    position: absolute;
+  }
+
+  .link-btn__arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: left .3s;
+  }
+
+  &:hover {
+    cursor: pointer;
+    .link-btn__arrow {
+      left: 60%;
+
+    }
+  }
+}
+
 .button {
   position: relative;
+  display: inline-block;
   width: 119px;
   height: 32px;
   background-color: $action-color;
@@ -95,5 +194,29 @@ ul {
 
   &:hover {
     cursor: pointer;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 1088px) {
+  .wrapper {
+    margin-left: 320px;
+  }
+
+  .aside {
+    .aside__header {
+      justify-content: space-between;
+    }
+  }
+
+  .aside__btn {
+    display: none;
+  }
+
+  .aside {
+    transform: translatey(100%);
   }
 }
