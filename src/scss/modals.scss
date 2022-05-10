@@ -1,5 +1,79 @@
 @import "variables";
 
-.callback, .call {
-  display: none;
+.modal {
+  position: fixed;
+  top: 0;
+  right: -320px;
+  width: 320px;
+  //width: 100%;
+  //max-width: 440px;
+  height: 100vh;
+  background-color: $secondary-color;
+  z-index: 11;
+}
+
+.show--modal {
+  transform: translateX(-100%);
+  z-index: 11;
+}
+
+.modal__wrapper {
+  padding: 24px 16px 0;
+}
+
+.modal__heading {
+  @extend %heading;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.form__input {
+  height: 48px;
+}
+
+.form__area {
+  height: 118px;
+  resize: none;
+}
+
+.form__input, .form__area {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 1px solid $gray-white;
+  border-radius: 6px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+
+  color: $gray;
+
+}
+
+.form__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: $gray;
+
+  &-link {
+    text-decoration: none;
+    color: $action-color;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.form {
+  position: relative;
+  .button {
+    position: absolute;
+    margin-top: 19px;
+    right: 0;
+  }
 }

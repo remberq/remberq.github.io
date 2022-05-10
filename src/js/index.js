@@ -13,6 +13,7 @@ import '../scss/modals.scss';
 
 
 import '../js/swiper';
+import '../js/action';
 
 
 

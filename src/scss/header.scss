@@ -66,11 +66,12 @@
       transform: translateY(-50%);
     }
   }
-
-  .callback-icons {
-    display: flex;
-    justify-content: space-between;
-    width: 152px;
+  .header__logo-items {
+    .callback-icons {
+      display: flex;
+      justify-content: space-between;
+      width: 152px;
+    }
   }
 
   .header__icons {
@@ -80,6 +81,10 @@
     min-width: 47%;
   }
 
+}
+
+.header--burger {
+  transform: translateY(120%);
 }
 
 @media (min-width: 1088px) {
