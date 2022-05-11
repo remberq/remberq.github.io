@@ -11,7 +11,7 @@
 <link href="style.css" rel="stylesheet"></head>
 <body>
 <div class="main-container">
-  
+
   <aside class="aside">
 
     
@@ -38,7 +38,7 @@
           <a href="#" class="aside__link">Ремонт техники</a>
         </li>
 
-        <li class="aside__item active">
+        <li class="aside__item">
           <a href="#" class="aside__link">Услуги и сервисы</a>
         </li>
 
@@ -97,16 +97,17 @@
 
       <div class="local">
         <ul class="local__items">
-          <li class="local__item local--active">
-            RU
+          <li class="local__item">
+            <a href="#" class="local__link">RU</a>
           </li>
 
           <li class="local__item">
-            EN
+            <a href="#" class="local__link">EN</a>
           </li>
 
           <li class="local__item">
-            CH
+            <a href="#" class="local__link">CH</a>
+
           </li>
         </ul>
       </div>
@@ -114,6 +115,10 @@
 
 
   </aside>
+  <div class="overlay hidden"></div>
+
+  
+
   
   <div class="wrapper">
     
@@ -214,31 +219,31 @@
             </div>
           </div>
 
-          <div class="hero__nav-items">
-            <div class="hero__item item--active">
+          <ul class="hero__nav-items">
+            <li class="hero__item">
               <a href="#" class="hero__subtitle">Ремонтируемые устройства</a>
-            </div>
+            </li>
 
-            <div class="hero__item">
+            <li class="hero__item">
               <a href="#" class="hero__subtitle">Дополнительные услуги</a>
-            </div>
+            </li>
 
-            <div class="hero__item">
+            <li class="hero__item">
               <a href="#" class="hero__subtitle">Цены на услуги</a>
-            </div>
+            </li>
 
-            <div class="hero__item">
+            <li class="hero__item">
               <a href="#" class="hero__subtitle">Адреса сервисных центров</a>
-            </div>
+            </li>
 
-            <div class="hero__item">
+            <li class="hero__item">
               <a href="#" class="hero__subtitle">Специальные цены</a>
-            </div>
+            </li>
 
-            <div class="hero__item">
+            <li class="hero__item">
               <a href="#" class="hero__subtitle">Отзывы</a>
-            </div>
-          </div>
+            </li>
+          </ul>
 
 
           <div class="hero__main-wrapper">
@@ -247,6 +252,18 @@
                 <p class="hero__text-content">
                   Мы являемся авторизованным сервисным центром по ремонту техники Dell.
                   Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                </p>
+                <p class="hero__text-content">
+                  Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
+                  что подтверждает большое количество постоянных клиентов.
+                  Мы гордимся тем, что к нам обращаются по рекомендациям и,
+                  в свою очередь, советуют нас родным и близким.
+                </p>
+                <p class="hero__text-content">
+                  Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
+                  что подтверждает большое количество постоянных клиентов.
+                  Мы гордимся тем, что к нам обращаются по рекомендациям и,
+                  в свою очередь, советуют нас родным и близким.
                 </p>
                 <p class="hero__text-content">
                   Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера,
@@ -1198,6 +1215,7 @@
     
   </div>
 
+
   <div class="modal phone">
     <div class="modal__wrapper">
       <button class="btn modal__btn">
@@ -1264,6 +1282,7 @@
   </div>
 
 </div>
+
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="./js/bundle.js"></script></body>
