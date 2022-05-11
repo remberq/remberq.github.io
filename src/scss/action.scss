@@ -1,0 +1,15 @@
+@import "variables";
+
+.popup-back {
+  overflow: hidden;
+}
+
+.overlay {
+  position:fixed;
+  width:100%;
+  height:100%;
+  z-index:1;
+  background-color: white;
+  opacity: .5;
+
+}

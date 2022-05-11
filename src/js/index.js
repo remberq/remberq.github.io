@@ -10,10 +10,13 @@ import '../scss/price.scss';
 import '../scss/footer.scss';
 import '../scss/aside.scss';
 import '../scss/modals.scss';
+import '../scss/action.scss';
 
 
 import '../js/swiper';
 import '../js/action';
+import '../js/new';
+import '../js/modal';
 
 
 

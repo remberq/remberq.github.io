@@ -21,9 +21,6 @@
   }
 }
 
-.brand__items {
-}
-
 .brand__item {
   width: 240px;
   height: 72px;
@@ -36,6 +33,10 @@
 
   .brand-logo {
     padding-left: 16px;
+  }
+
+  &:hover {
+    cursor: pointer;
   }
 }
 
@@ -51,6 +52,10 @@
       margin-top: 24px;
       margin-bottom: 8px;
 
+      &:hover {
+        cursor: pointer;
+        color: $hover-color;
+      }
     }
 
     .show-link {

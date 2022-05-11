@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a87810d8-79e0-4a0a-ac05-23eb49bc64fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/new.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/action.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/aside.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/brand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/brand.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/price.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/repair.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/repair.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
     </list>
@@ -24,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -91,6 +95,10 @@
       <workItem from="1652110920575" duration="17228000" />
       <workItem from="1652131800166" duration="229000" />
       <workItem from="1652196895072" duration="19111000" />
+      <workItem from="1652218665393" duration="1415000" />
+      <workItem from="1652221327835" duration="95000" />
+      <workItem from="1652244543982" duration="9000" />
+      <workItem from="1652286526914" duration="17891000" />
     </task>
     <servers />
   </component>

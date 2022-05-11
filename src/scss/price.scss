@@ -87,6 +87,7 @@
 
   &:hover {
     cursor: pointer;
+
   }
 
   svg {
@@ -103,6 +104,10 @@
     letter-spacing: -0.2px;
 
     color: $main-text-color;
+
+    &:hover {
+      color: $hover-color;
+    }
   }
 }
 
