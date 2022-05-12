@@ -2,9 +2,6 @@ body {
   font-family: 'TTLakes', sans-serif;
   overflow-x: hidden; }
 
-.overflow {
-  overflow-x: hidden; }
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -19,7 +16,8 @@ ul {
 .main-container {
   position: relative;
   max-width: 1440px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow-x: hidden; }
 
 .btn {
   position: relative;
