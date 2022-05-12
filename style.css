@@ -1,5 +1,6 @@
 body {
-  font-family: 'TTLakes', sans-serif; }
+  font-family: 'TTLakes', sans-serif;
+  overflow-x: hidden; }
 
 * {
   box-sizing: border-box;
@@ -23,7 +24,8 @@ ul {
   height: 40px;
   background-color: #FF3E79;
   border: none;
-  border-radius: 50%; }
+  border-radius: 50%;
+  transition: transform .5s, background-color .5s; }
   .btn:hover {
     cursor: pointer;
     background-color: #9A1A1A;
@@ -131,10 +133,6 @@ input::placeholder, textarea::placeholder {
     left: 50%;
     transform: translate(-50%, -50%);
     transition: left .3s; }
-  .link-btn:hover {
-    cursor: pointer; }
-    .link-btn:hover .link-btn__arrow {
-      left: 60%; }
 
 .button {
   position: relative;
@@ -149,7 +147,8 @@ input::placeholder, textarea::placeholder {
   line-height: 24px;
   letter-spacing: -0.15px;
   text-transform: uppercase;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  transition: background-color .5s, transform .5s; }
   .button button {
     width: 100%;
     height: 100%;
@@ -164,10 +163,14 @@ input::placeholder, textarea::placeholder {
   .button-arrow {
     position: absolute;
     top: 11px;
-    right: 16px; }
+    right: 16px;
+    transition: transform .5s; }
   .button:hover {
     cursor: pointer;
-    background-color: #9A1A1A; }
+    background-color: #9A1A1A;
+    transform: scale(1.03); }
+    .button:hover .button-arrow {
+      transform: translateX(2px); }
 
 .hidden {
   display: none; }
@@ -620,15 +623,15 @@ template {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: -0.2px;
-  color: #7E7E82; }
+  color: #7E7E82;
+  transition: outline-color 1s, background-color 1s; }
   .hero__subtitle:focus {
-    border: 2px solid #B8FFEC;
+    outline: 2px solid #B8FFEC;
     border-radius: 6px;
     background-color: #FFFFFF; }
   .hero__subtitle:hover {
-    border: 1px solid #9A1A1A;
-    border-radius: 6px;
-    color: #9A1A1A; }
+    outline: 2px solid #B8FFEC;
+    border-radius: 6px; }
 
 .hero__text-container {
   margin-bottom: 16px;
@@ -770,11 +773,16 @@ template {
   justify-content: space-between;
   align-items: center;
   background-color: #FFFFFF;
-  border-radius: 6px; }
+  border-radius: 6px;
+  transition: transform .7s; }
   .brand__item .brand-logo {
     padding-left: 16px; }
   .brand__item:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    transform: scale(0.98);
+    border: 2px solid #FF3E79; }
+    .brand__item:hover .link-btn__arrow {
+      left: 60%; }
 
 @media (min-width: 560px) {
   .brand--swiper {
@@ -858,14 +866,13 @@ template {
   height: 160px;
   background-color: #FFFFFF;
   border-radius: 6px;
-  transition: background-position 3s; }
+  transition: transform .7s, background 1s; }
   .repair__item:hover {
     cursor: pointer;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center top; }
-    .repair__item:hover:last-child {
-      background-image: url(./static/fray.png); }
+    transform: scale(0.98);
+    border: 2px solid #FF3E79; }
+    .repair__item:hover .link-btn__arrow {
+      left: 60%; }
   .repair__item .repair__item-title {
     padding-top: 16px;
     padding-left: 16px;
@@ -878,6 +885,13 @@ template {
     position: absolute;
     right: 16px;
     bottom: 16px; }
+
+.strange:hover {
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 65px;
+  background-image: url(./static/fray.png); }
 
 @media (min-width: 560px) {
   .swiper--repair {
@@ -1130,7 +1144,7 @@ template {
     text-align: end; } }
 
 .aside {
-  min-width: 320px;
+  width: 320px;
   height: 100vh;
   position: fixed;
   top: -120%;
@@ -1138,15 +1152,21 @@ template {
 
 .show--aside {
   transform: translateY(120%);
-  z-index: 10; }
+  z-index: 2; }
 
 .aside__header {
   display: flex;
   align-items: center;
+  position: relative;
   padding: 18px 24px 0 24px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  background-color: #FFFFFF; }
   .aside__header .aside__btn {
     margin-right: 16px; }
+  .aside__header .aside--search {
+    position: absolute;
+    top: 25px;
+    right: 24px; }
 
 .aside__logo {
   margin-right: 78px; }
@@ -1164,7 +1184,8 @@ template {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
-  color: #1B1C21; }
+  color: #1B1C21;
+  transition: all 0.5s; }
   .aside__link:focus {
     font-weight: 500;
     font-size: 16px;
@@ -1237,6 +1258,11 @@ template {
   letter-spacing: -0.2px;
   color: #7E7E82; }
 
+@media (max-width: 768px) and (min-width: 320px) {
+  .aside {
+    width: 100%;
+    max-width: 360px; } }
+
 @media (max-height: 800px) {
   .aside__header {
     margin-bottom: 26px; }
@@ -1251,6 +1277,10 @@ template {
     padding-bottom: 12px; }
   .aside__phone {
     margin-bottom: 8px; } }
+
+@media (max-width: 1088px) {
+  .aside {
+    box-shadow: 10px 0 50px #DDDDDD; } }
 
 .modal__heading {
   position: relative; }
@@ -1267,19 +1297,24 @@ template {
     background-color: #41F6D7; }
 
 .modal {
-  position: fixed;
+  position: absolute;
   top: 0;
-  right: -320px;
-  width: 320px;
+  right: -1000px;
+  min-width: 320px;
+  width: 100%;
+  max-width: 440px;
   height: 100vh;
   background-color: #FFFFFF;
-  z-index: 11; }
+  transition: transform 0.7s cubic-bezier(0.85, 0, 0.15, 1);
+  outline: 1px solid #D9FFF5;
+  box-shadow: -10px 0 50px #DDDDDD; }
 
 .show--modal {
-  transform: translateX(-100%);
+  transform: translateX(-1000px);
   z-index: 11; }
 
 .modal__wrapper {
+  position: relative;
   padding: 24px 16px 0; }
 
 .modal__heading {
@@ -1323,8 +1358,17 @@ template {
     margin-top: 19px;
     right: 0; }
 
-.popup-back {
-  overflow: hidden; }
+@media (min-width: 768px) {
+  .modal__wrapper {
+    padding: 40px 32px 0; }
+  .modal__btn {
+    position: absolute;
+    left: -65px; }
+  .modal__heading {
+    margin-top: 8px;
+    margin-bottom: 24px; }
+    .modal__heading:before {
+      left: -32px; } }
 
 .overlay {
   position: fixed;
@@ -1332,7 +1376,7 @@ template {
   height: 100%;
   z-index: 1;
   background-color: white;
-  opacity: .5; }
+  opacity: .95; }
 
 
 /*# sourceMappingURL=style.css.map*/
