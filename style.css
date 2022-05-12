@@ -1,5 +1,7 @@
 body {
-  font-family: 'TTLakes', sans-serif;
+  font-family: 'TTLakes', sans-serif; }
+
+.overflow {
   overflow-x: hidden; }
 
 * {
