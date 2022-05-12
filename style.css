@@ -1302,7 +1302,7 @@ template {
 .modal {
   position: absolute;
   top: 0;
-  right: -1000px;
+  right: -2000px;
   min-width: 320px;
   width: 100%;
   max-width: 440px;
@@ -1313,7 +1313,7 @@ template {
   box-shadow: -10px 0 50px #DDDDDD; }
 
 .show--modal {
-  transform: translateX(-1000px);
+  transform: translateX(-2000px);
   z-index: 11; }
 
 .modal__wrapper {
