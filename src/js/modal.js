@@ -25,6 +25,7 @@ overlay.onclick = function () {
   modalChat.classList.remove('show--modal')
   overlay.classList.add('hidden')
   body.style.overflow = 'visible'
+  body.style.overflowX = 'hidden'
 }
 
 asideExit.onclick = function () {
@@ -37,12 +38,14 @@ phoneExit.onclick = function () {
   modalPhone.classList.remove('show--modal')
   overlay.classList.add('hidden')
   body.style.overflow = 'visible'
+  body.style.overflowX = 'hidden'
 }
 
 chatExit.onclick = function () {
   modalChat.classList.remove('show--modal')
   overlay.classList.add('hidden')
   body.style.overflow = 'visible'
+  body.style.overflowX = 'hidden'
 }
 
 asidePhone.onclick = function () {
