@@ -46,17 +46,20 @@
 
   color: $gray;
 
+  transition: outline-color 1s, background-color 1s;
+
   &:focus {
-    border: 2px solid $decorate-color-light;
+    outline: 2px solid $decorate-color-light;
     border-radius: 6px;
     background-color: $secondary-color;
   }
 
   &:hover {
-    border: 1px solid $hover-color;
+    outline: 2px solid $decorate-color-light;
     border-radius: 6px;
-    color: $hover-color;
   }
+
+
 }
 
 .hero__heading {

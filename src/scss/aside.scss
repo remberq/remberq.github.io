@@ -1,27 +1,36 @@
 @import "variables";
 
 .aside {
-  min-width: 320px;
+  width: 320px;
   height: 100vh;
   position: fixed;
   top: -120%;
   background-color: $secondary-color;
+
 }
 
 .show--aside {
   transform: translateY(120%);
-  z-index: 10;
+  z-index: 2;
 }
 
 
 .aside__header {
   display: flex;
   align-items: center;
+  position: relative;
   padding: 18px 24px 0 24px;
   margin-bottom: 50px;
+  background-color: $secondary-color;
 
   .aside__btn {
     margin-right: 16px;
+  }
+
+  .aside--search {
+    position: absolute;
+    top: 25px;
+    right: 24px;
   }
 }
 
@@ -34,15 +43,10 @@
   padding: 0 24px 0;
 }
 
-.aside__items {
-
-}
 
 .aside__item {
   position: relative;
   margin-bottom: 32px;
-
-
 }
 
 .aside__link {
@@ -53,6 +57,7 @@
   letter-spacing: -0.2px;
 
   color: $main-text-color;
+  transition: all 0.5s;
 
   &:focus {
     font-weight: 500;
@@ -61,6 +66,7 @@
     letter-spacing: -0.2px;
 
     color: $gray;
+
 
 
 
@@ -154,6 +160,12 @@
   color: $gray;
 }
 
+@media (max-width: 768px) and (min-width: 320px){
+  .aside {
+    width: 100%;
+    max-width: 360px;
+  }
+}
 
 @media (max-height: 800px) {
   .aside__header {
@@ -180,4 +192,9 @@
   }
 }
 
+@media (max-width: 1088px) {
+  .aside {
+    box-shadow: 10px 0 50px $gray-lighten;
 
+  }
+}

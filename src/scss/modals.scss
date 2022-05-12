@@ -1,21 +1,29 @@
 @import "variables";
 
 .modal {
-  position: fixed;
+  position: absolute;
   top: 0;
-  right: -320px;
-  width: 320px;
+  right: -1000px;
+  min-width: 320px;
+  width: 100%;
+  max-width: 440px;
   height: 100vh;
+
   background-color: $secondary-color;
-  z-index: 11;
+  transition: transform 0.7s cubic-bezier(0.85, 0, 0.15, 1);
+  outline: 1px solid $decorate-color-lighten;
+  box-shadow: -10px 0 50px $gray-lighten;
+
 }
 
+
 .show--modal {
-  transform: translateX(-100%);
+  transform: translateX(-1000px);
   z-index: 11;
 }
 
 .modal__wrapper {
+  position: relative;
   padding: 24px 16px 0;
 }
 
@@ -73,5 +81,25 @@
     position: absolute;
     margin-top: 19px;
     right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal__wrapper {
+    padding: 40px 32px 0;
+  }
+
+  .modal__btn {
+    position: absolute;
+    left: -65px;
+  }
+
+  .modal__heading {
+    margin-top: 8px;
+    margin-bottom: 24px;
+
+    &:before {
+      left: -32px;
+    }
   }
 }
