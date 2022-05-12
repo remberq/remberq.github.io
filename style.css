@@ -1,5 +1,6 @@
 body {
-  font-family: 'TTLakes', sans-serif; }
+  font-family: 'TTLakes', sans-serif;
+  overflow-x: hidden; }
 
 .overflow {
   overflow-x: hidden; }
