@@ -1,6 +1,7 @@
 body {
   font-family: 'TTLakes', sans-serif;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #F8F8F8; }
 
 * {
   box-sizing: border-box;
@@ -17,7 +18,8 @@ ul {
   position: relative;
   max-width: 1440px;
   margin: 0 auto;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  outline: 1px solid #B8FFEC; }
 
 .btn {
   position: relative;
@@ -1158,6 +1160,7 @@ template {
 
 .aside__wrapper {
   position: relative;
+  min-height: 680px;
   height: 100vh;
   max-height: 1024px; }
 
@@ -1311,24 +1314,22 @@ template {
     background-color: #41F6D7; }
 
 .modal {
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: -2000px;
+  right: -200%;
   min-width: 320px;
   width: 100%;
   max-width: 440px;
-  height: 100vh;
+  height: 100%;
   background-color: #FFFFFF;
-  transition: transform 0.7s cubic-bezier(0.85, 0, 0.15, 1);
+  transition: right 0.7s cubic-bezier(0.85, 0, 0.15, 1), transform 0.4s cubic-bezier(0.85, 0, 0.15, 1);
   outline: 1px solid #D9FFF5;
   box-shadow: -10px 0 50px #DDDDDD; }
 
 .show--modal {
-  transform: translateX(-2000px);
   z-index: 3; }
 
 .modal__wrapper {
-  position: relative;
   padding: 24px 16px 0; }
 
 .modal__heading {
