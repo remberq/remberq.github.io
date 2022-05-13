@@ -2,7 +2,8 @@
 
 body {
   font-family: 'TTLakes', sans-serif;
-  overflow-x: hidden
+  overflow-x: hidden;
+  background-color: $main-color;
 }
 
 
@@ -26,6 +27,7 @@ ul {
   max-width: 1440px;
   margin: 0 auto;
   overflow-x: hidden;
+  outline: 1px solid $decorate-color-light;
 }
 
 

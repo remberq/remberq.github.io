@@ -7,8 +7,9 @@
     <list default="true" id="a87810d8-79e0-4a0a-ac05-23eb49bc64fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/action.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/action.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/aside.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
@@ -93,7 +94,8 @@
       <workItem from="1652286526914" duration="18091000" />
       <workItem from="1652332628208" duration="1101000" />
       <workItem from="1652375126839" duration="13773000" />
-      <workItem from="1652420392280" duration="2060000" />
+      <workItem from="1652420392280" duration="2777000" />
+      <workItem from="1652452253294" duration="5123000" />
     </task>
     <servers />
   </component>
