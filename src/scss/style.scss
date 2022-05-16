@@ -2,10 +2,8 @@
 
 body {
   font-family: 'TTLakes', sans-serif;
-  overflow-x: hidden;
   background-color: $main-color;
 }
-
 
 * {
   box-sizing: border-box;
@@ -19,14 +17,12 @@ ul {
 
 .img {
   width: 100%;
-
 }
 
 .main-container {
   position: relative;
   max-width: 1440px;
   margin: 0 auto;
-  overflow-x: hidden;
   outline: 1px solid $decorate-color-light;
 }
 
@@ -58,14 +54,6 @@ ul {
     display: none;
   }
 }
-
-.container {
-  min-width: 320px;
-  overflow: hidden;
-  margin: 0 auto;
-  background-color: $main-color;
-}
-
 
 .subtitle {
   font-weight: 500;

@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/action.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/action.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/aside.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modals.scss" afterDir="false" />
@@ -54,7 +55,7 @@
     &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -95,7 +96,11 @@
       <workItem from="1652332628208" duration="1101000" />
       <workItem from="1652375126839" duration="13773000" />
       <workItem from="1652420392280" duration="2777000" />
-      <workItem from="1652452253294" duration="5123000" />
+      <workItem from="1652452253294" duration="6793000" />
+      <workItem from="1652472090010" duration="73000" />
+      <workItem from="1652473768351" duration="631000" />
+      <workItem from="1652614375213" duration="11000" />
+      <workItem from="1652713185026" duration="3655000" />
     </task>
     <servers />
   </component>

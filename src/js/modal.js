@@ -25,7 +25,7 @@ window.onresize = () => {
 burger.onclick = function () {
   aside.classList.add('show--aside')
   overlay.classList.remove('hidden')
-  body.style.overflow = 'hidden'
+
 }
 
 overlay.onclick = function () {
@@ -36,7 +36,7 @@ overlay.onclick = function () {
   modalChat.classList.remove('show--modal')
   overlay.classList.add('hidden')
   body.style.overflow = 'visible'
-  body.style.overflowX = 'hidden'
+
 }
 
 asideExit.onclick = function () {
@@ -50,7 +50,7 @@ phoneExit.onclick = function () {
   modalPhone.classList.remove('show--modal')
   overlay.classList.add('hidden')
   body.style.overflow = 'visible'
-  body.style.overflowX = 'hidden'
+
 }
 
 chatExit.onclick = function () {
@@ -58,7 +58,7 @@ chatExit.onclick = function () {
   modalChat.classList.remove('show--modal')
   overlay.classList.add('hidden')
   body.style.overflow = 'visible'
-  body.style.overflowX = 'hidden'
+
 }
 
 asidePhone.onclick = function () {
@@ -67,7 +67,7 @@ asidePhone.onclick = function () {
   modalPhone.classList.add('show--modal')
   aside.classList.remove('show--aside')
   overlay.classList.remove('hidden')
-  body.style.overflow = 'hidden'
+
 }
 
 asideChat.onclick = function () {
@@ -76,7 +76,7 @@ asideChat.onclick = function () {
   modalChat.classList.add('show--modal')
   aside.classList.remove('show--aside')
   overlay.classList.remove('hidden')
-  body.style.overflow = 'hidden'
+
 }
 
 
@@ -89,7 +89,7 @@ headerCall.onclick = function () {
   modalPhone.style.right = `${rightPosition}px`
   modalPhone.classList.add('show--modal')
   overlay.classList.remove('hidden')
-  body.style.overflow = 'hidden'
+
 }
 
 headerChat.onclick = function () {
@@ -97,7 +97,7 @@ headerChat.onclick = function () {
   modalChat.style.right = `${rightPosition}px`
   modalChat.classList.add('show--modal')
   overlay.classList.remove('hidden')
-  body.style.overflow = 'hidden'
+
 }
 
 
