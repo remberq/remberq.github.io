@@ -2,7 +2,7 @@
 
 body {
   font-family: 'TTLakes', sans-serif;
-  background-color: $secondary-color;
+  background-color: $main-color;
 }
 
 * {
@@ -26,9 +26,6 @@ ul {
 
 }
 
-.wrapper {
-  background-color: $main-color;
-}
 
 
 .btn {
@@ -218,7 +215,7 @@ input::placeholder, textarea::placeholder {
 @media (min-width: 1088px) {
   .wrapper {
     margin-left: 320px;
-    outline: 1px solid $decorate-color-light;
+
   }
 
   .main-container {

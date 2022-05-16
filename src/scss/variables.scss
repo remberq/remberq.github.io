@@ -19,7 +19,8 @@ $gray-white:              #EAEAEA;
 %section-header {
   padding: 16px;
   height: 100%;
-  background: linear-gradient(to right, $main-color 0%, $secondary-color 98.61%);
+  background: linear-gradient(to bottom, $main-color 50%, $secondary-color 98.61%);
+  //background: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
 }
 
 %section-footer {
