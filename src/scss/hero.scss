@@ -238,9 +238,11 @@
   }
 
   .hero__heading {
-    &:before {
-      left: -34px;
-    }
+    //&:before {
+    //  position: fixed;
+    //  top: 62px;
+    //  left: 320px;
+    //}
   }
 
 }
