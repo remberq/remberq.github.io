@@ -1,6 +1,6 @@
 body {
   font-family: 'TTLakes', sans-serif;
-  background-color: #FFFFFF; }
+  background-color: #F8F8F8; }
 
 * {
   box-sizing: border-box;
@@ -17,9 +17,6 @@ ul {
   position: relative;
   max-width: 1440px;
   margin: 0 auto; }
-
-.wrapper {
-  background-color: #F8F8F8; }
 
 .btn {
   position: relative;
@@ -174,8 +171,7 @@ input::placeholder, textarea::placeholder {
 
 @media (min-width: 1088px) {
   .wrapper {
-    margin-left: 320px;
-    outline: 1px solid #B8FFEC; }
+    margin-left: 320px; }
   .aside .aside__header {
     justify-content: space-between; }
   .aside__btn {
@@ -748,7 +744,7 @@ template {
 .brand .brand__title {
   padding: 16px;
   height: 100%;
-  background: linear-gradient(to right, #F8F8F8 0%, #FFFFFF 98.61%); }
+  background: linear-gradient(to bottom, #F8F8F8 50%, #FFFFFF 98.61%); }
 
 .brand {
   padding-bottom: 24px;
@@ -841,7 +837,7 @@ template {
 .repair .repair__title {
   padding: 16px;
   height: 100%;
-  background: linear-gradient(to right, #F8F8F8 0%, #FFFFFF 98.61%); }
+  background: linear-gradient(to bottom, #F8F8F8 50%, #FFFFFF 98.61%); }
 
 .repair {
   padding-bottom: 24px;
@@ -943,7 +939,7 @@ template {
 .price .price__title {
   padding: 16px;
   height: 100%;
-  background: linear-gradient(to right, #F8F8F8 0%, #FFFFFF 98.61%); }
+  background: linear-gradient(to bottom, #F8F8F8 50%, #FFFFFF 98.61%); }
 
 .price {
   padding-bottom: 24px;
