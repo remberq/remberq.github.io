@@ -16,8 +16,7 @@ ul {
 .main-container {
   position: relative;
   max-width: 1440px;
-  margin: 0 auto;
-  outline: 1px solid #B8FFEC; }
+  margin: 0 auto; }
 
 .btn {
   position: relative;
@@ -173,6 +172,8 @@ input::placeholder, textarea::placeholder {
 @media (min-width: 1088px) {
   .wrapper {
     margin-left: 320px; }
+  .main-container {
+    outline: 1px solid #B8FFEC; }
   .aside .aside__header {
     justify-content: space-between; }
   .aside__btn {
