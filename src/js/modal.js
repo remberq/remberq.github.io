@@ -2,7 +2,7 @@ const main = document.querySelector('.main-container')
 const header = main.querySelector('.header')
 const aside = main.querySelector('.aside')
 const burger = header.querySelector('.burger')
-const overlay = main.querySelector('.overlay')
+const overlay = document.querySelector('.overlay')
 const body = document.querySelector('body')
 const asideExit = aside.querySelector('.aside__btn')
 const asidePhone = aside.querySelector('.btn--call')
@@ -68,7 +68,7 @@ chatExit.onclick = function () {
 
 asidePhone.onclick = function () {
   rightPosition = (widthWindow - mainWidth) / 2
-  modalPhone.style.right = `${rightPosition}px`
+  modalPhone.style.right = '0'
   modalPhone.classList.add('show--modal')
   aside.classList.remove('show--aside')
   overlay.classList.remove('hidden')
@@ -79,7 +79,7 @@ asidePhone.onclick = function () {
 
 asideChat.onclick = function () {
   rightPosition = (widthWindow - mainWidth) / 2
-  modalChat.style.right = `${rightPosition}px`
+  modalChat.style.right = '0'
   modalChat.classList.add('show--modal')
   aside.classList.remove('show--aside')
   overlay.classList.remove('hidden')
@@ -95,7 +95,7 @@ const headerChat = header.querySelector('.header--chat')
 
 headerCall.onclick = function () {
   rightPosition = (widthWindow - mainWidth) / 2
-  modalPhone.style.right = `${rightPosition}px`
+  modalPhone.style.right = '0'
   modalPhone.classList.add('show--modal')
   overlay.classList.remove('hidden')
   body.style.overflow = 'hidden'
@@ -104,7 +104,7 @@ headerCall.onclick = function () {
 
 headerChat.onclick = function () {
   rightPosition = (widthWindow - mainWidth) / 2
-  modalChat.style.right = `${rightPosition}px`
+  modalChat.style.right = '0'
   modalChat.classList.add('show--modal')
   overlay.classList.remove('hidden')
   body.style.overflow = 'hidden'
