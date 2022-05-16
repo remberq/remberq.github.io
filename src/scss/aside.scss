@@ -3,10 +3,11 @@
 .aside {
   width: 320px;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: -1000px;
   background-color: $secondary-color;
+  box-shadow: 1px 0px 20px $gray-lighten;
 
   z-index: 3;
 
