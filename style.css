@@ -1,6 +1,6 @@
 body {
   font-family: 'TTLakes', sans-serif;
-  background-color: #F8F8F8; }
+  background-color: #FFFFFF; }
 
 * {
   box-sizing: border-box;
@@ -17,6 +17,9 @@ ul {
   position: relative;
   max-width: 1440px;
   margin: 0 auto; }
+
+.wrapper {
+  background-color: #F8F8F8; }
 
 .btn {
   position: relative;
@@ -171,8 +174,7 @@ input::placeholder, textarea::placeholder {
 
 @media (min-width: 1088px) {
   .wrapper {
-    margin-left: 320px; }
-  .main-container {
+    margin-left: 320px;
     outline: 1px solid #B8FFEC; }
   .aside .aside__header {
     justify-content: space-between; }
@@ -1142,10 +1144,11 @@ template {
 .aside {
   width: 320px;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: -1000px;
   background-color: #FFFFFF;
+  box-shadow: 1px 0px 20px #DDDDDD;
   z-index: 3; }
 
 .show--aside {
