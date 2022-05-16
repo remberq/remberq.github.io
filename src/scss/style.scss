@@ -23,7 +23,7 @@ ul {
   position: relative;
   max-width: 1440px;
   margin: 0 auto;
-  outline: 1px solid $decorate-color-light;
+
 }
 
 
@@ -214,6 +214,10 @@ input::placeholder, textarea::placeholder {
 @media (min-width: 1088px) {
   .wrapper {
     margin-left: 320px;
+  }
+
+  .main-container {
+    outline: 1px solid $decorate-color-light;
   }
 
   .aside {

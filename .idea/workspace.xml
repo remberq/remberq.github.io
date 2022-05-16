@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a87810d8-79e0-4a0a-ac05-23eb49bc64fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/action.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/action.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/aside.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +95,7 @@
       <workItem from="1652472090010" duration="73000" />
       <workItem from="1652473768351" duration="631000" />
       <workItem from="1652614375213" duration="11000" />
-      <workItem from="1652713185026" duration="3655000" />
+      <workItem from="1652713185026" duration="6884000" />
     </task>
     <servers />
   </component>

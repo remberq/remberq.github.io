@@ -16,6 +16,7 @@ const chatExit = modalChat.querySelector('.modal__btn')
 let mainWidth = parseInt(getComputedStyle(main).width)
 let widthWindow = document.documentElement.clientWidth
 let rightPosition
+let padding = widthWindow > 1440 ? ((widthWindow - 1440) / 2) : 0
 
 window.onresize = () => {
   mainWidth = parseInt(getComputedStyle(main).width)
@@ -25,7 +26,7 @@ window.onresize = () => {
 burger.onclick = function () {
   aside.classList.add('show--aside')
   overlay.classList.remove('hidden')
-
+  body.style.overflow = 'hidden'
 }
 
 overlay.onclick = function () {
@@ -36,6 +37,7 @@ overlay.onclick = function () {
   modalChat.classList.remove('show--modal')
   overlay.classList.add('hidden')
   body.style.overflow = 'visible'
+  body.style.marginRight = '0px'
 
 }
 
@@ -50,6 +52,8 @@ phoneExit.onclick = function () {
   modalPhone.classList.remove('show--modal')
   overlay.classList.add('hidden')
   body.style.overflow = 'visible'
+  body.style.marginRight = '0px'
+
 
 }
 
@@ -58,7 +62,8 @@ chatExit.onclick = function () {
   modalChat.classList.remove('show--modal')
   overlay.classList.add('hidden')
   body.style.overflow = 'visible'
-
+  body.style.overflowX = 'hidden'
+  body.style.marginRight = '0px'
 }
 
 asidePhone.onclick = function () {
@@ -67,7 +72,9 @@ asidePhone.onclick = function () {
   modalPhone.classList.add('show--modal')
   aside.classList.remove('show--aside')
   overlay.classList.remove('hidden')
-
+  body.style.overflow = 'hidden'
+  body.style.marginRight = padding > 17 ? '17px' : `${padding}px`
+  console.log(padding)
 }
 
 asideChat.onclick = function () {
@@ -76,7 +83,9 @@ asideChat.onclick = function () {
   modalChat.classList.add('show--modal')
   aside.classList.remove('show--aside')
   overlay.classList.remove('hidden')
-
+  body.style.overflow = 'hidden'
+  body.style.marginRight = padding > 17 ? '17px' : `${padding}px`
+  console.log(padding)
 }
 
 
@@ -89,6 +98,7 @@ headerCall.onclick = function () {
   modalPhone.style.right = `${rightPosition}px`
   modalPhone.classList.add('show--modal')
   overlay.classList.remove('hidden')
+  body.style.overflow = 'hidden'
 
 }
 
@@ -97,7 +107,7 @@ headerChat.onclick = function () {
   modalChat.style.right = `${rightPosition}px`
   modalChat.classList.add('show--modal')
   overlay.classList.remove('hidden')
-
+  body.style.overflow = 'hidden'
 }
 
 
