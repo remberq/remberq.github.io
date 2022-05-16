@@ -179,6 +179,19 @@ input::placeholder, textarea::placeholder {
   .aside {
     transform: translateX(1000px); } }
 
+@media (min-width: 1440px) {
+  body:before {
+    content: '';
+    position: absolute;
+    top: 62px;
+    left: 321px;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #41F6D7; } }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -577,19 +590,20 @@ template {
   padding-bottom: 24px;
   border-bottom: 1px solid #D9FFF5; }
 
-.hero__heading {
-  position: relative; }
-  .hero__heading:before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: -16px;
-    transform: translateY(-50%);
-    width: 4px;
-    height: 40px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    background-color: #41F6D7; }
+@media (max-width: 1440px) {
+  .hero__heading {
+    position: relative; }
+    .hero__heading:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: -16px;
+      transform: translateY(-50%);
+      width: 4px;
+      height: 40px;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      background-color: #41F6D7; } }
 
 .hero {
   padding: 24px 16px; }
@@ -737,9 +751,7 @@ template {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    overflow: visible; }
-  .hero__heading:before {
-    left: -34px; } }
+    overflow: visible; } }
 
 .brand .brand__title {
   padding: 16px;
@@ -1291,19 +1303,20 @@ template {
   .aside {
     z-index: 1; } }
 
-.modal__heading {
-  position: relative; }
-  .modal__heading:before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: -16px;
-    transform: translateY(-50%);
-    width: 4px;
-    height: 40px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    background-color: #41F6D7; }
+@media (max-width: 1440px) {
+  .modal__heading {
+    position: relative; }
+    .modal__heading:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: -16px;
+      transform: translateY(-50%);
+      width: 4px;
+      height: 40px;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      background-color: #41F6D7; } }
 
 .modal {
   position: fixed;
